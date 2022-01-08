@@ -1,0 +1,44 @@
+@media (max-width:920px) {
+
+    .flex-box  .mobile{
+        display: block;
+        max-width: 80%;
+        height: auto;
+      
+      }
+
+      .flex-box  .desktop{
+        display: none;
+      
+      }
+
+    .intro img{
+        position: absolute;
+        left: 30%;
+        top: 15%;
+        
+        }
+        
+        .logo-header {
+          font-size: 20px;
+        }
+    .flex-box {
+        display: flex;
+        flex-wrap: wrap; 
+        padding-left: 10%;
+    }
+
+    .profilePic > .profilePic {
+        width: 100%;
+    }
+
+    .flex-box-workflow {
+        flex-wrap: wrap; 
+        
+        
+    }
+
+    footer {
+        flex-wrap: wrap;
+    }
+}
