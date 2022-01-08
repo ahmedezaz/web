@@ -100,8 +100,13 @@ button {
 
 button:hover {
   background-color: transparent;
-  color: #FFFFFF;
-  border: 2px solid var(--theme-color);
+  color: var(--theme-color);
+  -webkit-transition: all 0.5s;
+  transition: all 0.2s;
+}
+
+button:hover a{
+  color: var(--theme-color);
   -webkit-transition: all 0.5s;
   transition: all 0.2s;
 }
@@ -110,11 +115,10 @@ button > a {
     color: #FFFFFF;
     text-decoration: none;
 }
+/* 
+button a:hover button{
+  border: 2px solid var(--theme-color);
 
-/* button:hover {
-    background-color: transparent;
-    border: 1px solid #D70925;
-    color: #FFFFFF;
 } */
 
 /* Splash Screen */
