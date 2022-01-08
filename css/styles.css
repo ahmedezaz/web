@@ -405,7 +405,7 @@ top: 25%;
 .rtl-content {
   position:fixed;
   right:6%;
-  top:20%;
+  bottom:10%;
   z-index:9999999
  }
  .rtl-content::before {
