@@ -142,3 +142,11 @@ try{
 } catch(e){
   
 }
+
+// Submit btn
+
+
+
+document.getElementById("btn-submit").addEventListener("click", function() {
+  alert('Form is static now. Thank You!!!!');
+}); 
