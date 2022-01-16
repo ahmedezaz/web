@@ -88,30 +88,33 @@ h2 {
 }  
 
 
-button {
+.button {
     padding: 10px;
+    width: 120px;
+    margin-bottom: 50px;
     cursor: pointer;
     background-color: var(--theme-color);
     color: #FFFFFF;
     font-weight: 700;
     border: 2px solid var(--theme-color);
     border-radius: 10px;
+    text-decoration: none;
 }
 
-button:hover {
+.button:hover {
   background-color: transparent;
   color: var(--theme-color);
   -webkit-transition: all 0.5s;
   transition: all 0.2s;
 }
 
-button:hover a{
+.button:hover a{
   color: var(--theme-color);
   -webkit-transition: all 0.5s;
   transition: all 0.2s;
 }
 
-button > a {
+.button > a {
     color: #FFFFFF;
     text-decoration: none;
 }
